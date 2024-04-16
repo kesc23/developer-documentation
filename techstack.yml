@@ -1,0 +1,234 @@
+repo_name: kesc23/developer-documentation
+report_id: d80c278d70f3475d776e2fae3fc5cedf
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-16T17:02:20+00:00'
+requested_by: dennisameling
+provider: github
+branch: main
+detected_tools_count: 17
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kesc23/developer-documentation
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/kesc23/developer-documentation
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/kesc23/developer-documentation
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kesc23/developer-documentation
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2021-01-16 16:50:41.000000000 Z
+- name: LiveReload
+  description: CSS edits and image changes apply live. CoffeeScript, SASS, LESS and
+    others just work.
+  website_url: http://livereload.com
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Live Reloading
+  image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Robert Lord
+  last_updated_on: 2014-04-01 15:17:05.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Robert Lord
+  last_updated_on: 2013-09-13 22:24:31.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Robert Lord
+  last_updated_on: 2013-11-18 18:31:36.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: fermayo
+  last_updated_on: 2014-09-04 10:59:30.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Robert Lord
+  last_updated_on: 2014-12-04 23:39:17.000000000 Z
+  vulnerabilities:
+  - name: Injection/XSS in Redcarpet
+    cve_id: CVE-2020-26298
+    cve_url: https://github.com/advisories/GHSA-q3wr-qw3g-3p4h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.5.1
+- name: middleman
+  description: A static site generator
+  package_url: https://rubygems.org/middleman
+  version: 3.3.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19372/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2021-01-16 16:50:41.000000000 Z
+- name: middleman-livereload
+  description: LiveReload support for Middleman
+  package_url: https://rubygems.org/middleman-livereload
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2021-01-16 16:50:41.000000000 Z
+- name: middleman-syntax
+  description: Code syntax highlighting plugin via rouge for Middleman
+  package_url: https://rubygems.org/middleman-syntax
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2021-01-16 16:50:41.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 12.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-08-25 22:14:28.000000000 Z
+- name: rouge
+  description: Rouge aims to a be a simple
+  package_url: https://rubygems.org/rouge
+  version: 1.7.2
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19110/default_06b56c3cf87200ea8cc83429c79e5c5533c80ede.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Stefanie Nickerson
+  last_updated_on: 2015-01-15 11:42:31.000000000 Z
+- name: therubyracer
+  description: Call JavaScript code and manipulate JavaScript objects from Ruby
+  package_url: https://rubygems.org/therubyracer
+  version: 0.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19004/default_b93931146bf44c92297cef24be9c35899def9938.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dennis Ameling
+  last_updated_on: 2021-01-16 16:50:41.000000000 Z
+- name: wdm
+  description: Windows Directory Monitor
+  package_url: https://rubygems.org/wdm
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/kesc23/developer-documentation/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Robert Lord
+  last_updated_on: 2013-09-13 22:24:31.000000000 Z
